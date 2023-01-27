@@ -41,7 +41,7 @@ img {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -99,12 +99,36 @@ img {
     line-height: 1.18;
 }
 
-.content {}
+.content {
+    max-width: 49%;
+    color: #FFFFFF;
+    padding-top: 186px;
+}
 
 .content__desc {}
 
-.content__headline {}
+.content__headline {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+}
 
-.title {}
+.title {
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 1.17;
+}
 
-.content__text {}
+.content__title {
+    margin-bottom: 24px;
+}
+
+.content__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 42px;
+}
