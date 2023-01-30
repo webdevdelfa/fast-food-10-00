@@ -32,7 +32,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     margin: 0;
 }
 
@@ -53,20 +54,17 @@ img {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 25px 0px;
+    justify-content: space-between;
 }
 
 .logo {
-    width: 53px;
+    width: 52px;
     height: 42px;
+    display: block;
 }
 
-.logo__img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
+.logo__pic {}
 
 .nav {}
 
@@ -83,34 +81,34 @@ img {
 }
 
 .nav__link {
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     color: rgba(255, 255, 255, 0.7);
-    font-weight: 400;
 }
 
 .btn {
     background-color: #F6762C;
     border-radius: 5px;
-    padding: 15px 36px;
-    color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
+    color: #FFFFFF;
+    padding: 15px 36px;
 }
 
-.content {
+.hero__content {
     max-width: 49%;
-    color: #FFFFFF;
     padding-top: 186px;
 }
 
-.content__desc {}
+.hero__info {
+    color: #FFFFFF;
+}
 
-.content__headline {
+.hero__headline {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 16px;
     letter-spacing: 0.1em;
     margin-bottom: 15px;
 }
@@ -118,17 +116,17 @@ img {
 .title {
     font-weight: 500;
     font-size: 57px;
-    line-height: 1.17;
+    line-height: 1.18;
 }
 
-.content__title {
-    margin-bottom: 24px;
+.hero__title {
+    margin-bottom: 30px;
 }
 
-.content__text {
+.hero__desc {
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.3;
-    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.17;
+    color: rgb(255, 255, 255, 0.7);
     margin-bottom: 42px;
 }
